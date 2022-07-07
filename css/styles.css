@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --main-header-color: rgb(94, 129, 209);
+    --main-section-orange-strong: rgb(248, 117, 0);
+    --main-section-orange-light: rgb(255, 141, 39);
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    height: 100vh;
+}
