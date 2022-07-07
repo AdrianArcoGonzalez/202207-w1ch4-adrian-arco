@@ -17,60 +17,68 @@
         <title>Lista</title>
     </head>
     <body>
-        <header class="header-box">
-            <div class="title-box">
-                <h1 class="title-box__title">Lista de la compra</h1>
-            </div>
-            <nav class="navigation-box">
-                <ul class="links-box">
-                    <li class="links-box__link">Principal</li>
-                    <li class="links-box__link">Lista</li>
-                    <li class="links-box__link">Acerca de</li>
+        <div class="megadiv">
+            <header class="header-box">
+                <div class="title-box">
+                    <h1 class="title-box__title">Lista de la compra</h1>
+                </div>
+                <nav class="navigation-box">
+                    <ul class="links-box">
+                        <li class="links-box__link">Principal</li>
+                        <li class="links-box__link">Lista</li>
+                        <li class="links-box__link">Acerca de</li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="counter-box">
+                <div class="counter-box__icon-box">
+                    <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <span class="counter-box__counter">2/3</span>
+            </section>
+            <section class="products-list-box">
+                <ul class="products-list">
+                    <li class="products-list__product">
+                        <div class="product-name">
+                            <input type="checkbox" id="product-one" /><label
+                                for="product-one"
+                                >Pan</label
+                            >
+                        </div>
+                        <div class="product-price">
+                            0.75€ <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </li>
+                    <li class="products-list__product">
+                        <div class="product-name">
+                            <input type="checkbox" id="product-two" /><label
+                                for="product-two"
+                                >Azucar</label
+                            >
+                        </div>
+                        <div class="product-price">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </li>
+                    <li class="products-list__product">
+                        <div class="product-name">
+                            <input type="checkbox" id="product-three" /><label
+                                for="product-three"
+                                >Leche</label
+                            >
+                        </div>
+                        <div class="product-price">
+                            1.20€ <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <section class="counter-box">
-            <div class="counter-box__icon-box">
-                <i class="fa-solid fa-circle-plus"></i>
-            </div>
-            <span class="counter-box__counter">2/3</span>
-        </section>
-        <section class="products-list-box">
-            <ul class="products-list">
-                <li class="products-list__product">
-                    <div class="product-name">
-                        <input type="checkbox" id="product-one" /><label
-                            for="product-one"
-                            >Pan</label
-                        >
-                    </div>
-                    <div class="product-price">
-                        0.75€ <i class="fa-solid fa-xmark"></i>
-                    </div>
-                </li>
-                <li class="products-list__product">
-                    <div class="product-name">
-                        <input type="checkbox" id="product-two" /><label
-                            for="product-two"
-                            >Azucar</label
-                        >
-                    </div>
-                    <div class="product-price">
-                        <i class="fa-solid fa-xmark"></i>
-                    </div>
-                </li>
-                <li class="products-list__product">
-                    <div class="product-name">
-                        <input type="checkbox" id="product-three" /><label
-                            for="product-three"
-                            >Leche</label
-                        >
-                    </div>
-                    <div class="product-price">
-                        1.20€ <i class="fa-solid fa-xmark"></i>
-                    </div>
-                </li>
-            </ul>
-        </section>
+            </section>
+            <section class="price-result-box">
+                <span class="box__line">
+                    <hr class="price-result-box__line" />
+                </span>
+                <div class="price-result-box__price">1.95</div>
+            </section>
+        </div>
     </body>
 </html>

@@ -11,6 +11,12 @@ html {
 }
 body {
     margin: 0;
+    height: 100vh;
+}
+.megadiv {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 .header-box {
     background-color: var(--main-header-color);
@@ -72,5 +78,24 @@ body {
     padding: 10px;
 }
 .product-price {
+    padding: 10px;
+}
+.price-result-box {
+    background-color: var(--main-section-orange-light);
+    width: 100%;
+    flex: 1;
+}
+.price-result-box__line {
+    align-self: center;
+    margin: 0;
+    width: 80%;
+}
+.box__line {
+    display: flex;
+    justify-content: center;
+}
+.price-result-box__price {
+    display: flex;
+    justify-content: flex-end;
     padding: 10px;
 }
