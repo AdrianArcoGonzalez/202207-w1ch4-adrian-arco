@@ -39,3 +39,23 @@ body {
 .links-box__link {
     padding: 3px;
 }
+.counter-box {
+    background-color: var(--main-section-orange-strong);
+    display: flex;
+    justify-content: space-between;
+}
+.counter-box__icon-box {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.counter-box__counter {
+    padding: 10px;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}

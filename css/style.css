@@ -57,6 +57,12 @@ body {
 .counter-box__counter {
     padding: 10px;
 }
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
 .products-list-box {
     display: flex;
     background-color: var(--main-section-orange-light);
@@ -98,10 +104,5 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 10px;
-}
-a {
-    color: black;
-}
-a:visited {
-    color: black;
+    margin-right: 15px;
 }
