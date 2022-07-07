@@ -13,7 +13,17 @@ body {
     margin: 0;
     height: 100vh;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+.big-container {
+    height: 100vh;
+}
 .header-box {
     background-color: var(--main-header-color);
     display: flex;
@@ -58,4 +68,34 @@ a {
 }
 a:visited {
     color: black;
+}
+.edit-articles {
+    background-color: var(--main-section-orange-light);
+    height: 100%;
+}
+.articles-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+
+.articles-list__article {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.product-name {
+    width: 150px;
+}
+.product-price {
+    width: 150px;
+}
+.price-symbol {
+    padding: 5px;
+}
+.button {
+    background-color: var(--main-header-color);
+    padding: 10px;
+    margin-left: 5%;
 }
