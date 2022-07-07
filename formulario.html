@@ -16,25 +16,53 @@
         <title>Formulario</title>
     </head>
     <body>
-        <header class="header-box">
-            <div class="title-box">
-                <h1 class="title-box__title">Lista de la compra</h1>
-            </div>
-            <nav class="navigation-box">
-                <ul class="links-box">
-                    <li class="links-box__link">Principal</li>
-                    <li class="links-box__link">Lista</li>
-                    <li class="links-box__link">Acerca de</li>
-                </ul>
-            </nav>
-        </header>
-        <section class="counter-box">
-            <div class="counter-box__icon-box">
-                <a href="index.html"
-                    ><i class="fa-solid fa-circle-minus"></i
-                ></a>
-            </div>
-            <span class="counter-box__counter">2/3</span>
-        </section>
+        <main class="big-container">
+            <header class="header-box">
+                <div class="title-box">
+                    <h1 class="title-box__title">Lista de la compra</h1>
+                </div>
+                <nav class="navigation-box">
+                    <ul class="links-box">
+                        <li class="links-box__link">Principal</li>
+                        <li class="links-box__link">Lista</li>
+                        <li class="links-box__link">Acerca de</li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="counter-box">
+                <div class="counter-box__icon-box">
+                    <a href="index.html"
+                        ><i class="fa-solid fa-circle-minus"></i
+                    ></a>
+                </div>
+                <span class="counter-box__counter">2/3</span>
+            </section>
+            <section class="edit-articles">
+                <h3>Editar artículo</h3>
+                <form action="">
+                    <ul class="articles-list">
+                        <li class="articles-list__article">
+                            <label for="product-name">Nombre:</label>
+                            <input
+                                id="product-name"
+                                type="text"
+                                class="product-name"
+                            />
+                        </li>
+                        <li class="articles-list__article">
+                            <label for="product-price">Precio:</label>
+                            <div>
+                                <input
+                                    type="number"
+                                    id="product-price"
+                                    class="product-price"
+                                /><span class="price-symbol">€</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="button">Modificar</button>
+                </form>
+            </section>
+        </main>
     </body>
 </html>
