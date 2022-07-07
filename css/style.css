@@ -99,3 +99,9 @@ body {
     justify-content: flex-end;
     padding: 10px;
 }
+a {
+    color: black;
+}
+a:visited {
+    color: black;
+}
