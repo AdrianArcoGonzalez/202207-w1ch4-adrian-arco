@@ -93,7 +93,7 @@ a:visited {
 }
 .price-result-box__line {
     align-self: center;
-    margin: 0;
+    margin: auto;
     width: 80%;
 }
 .box__line {
