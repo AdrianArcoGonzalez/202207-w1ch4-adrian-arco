@@ -13,3 +13,29 @@ body {
     margin: 0;
     height: 100vh;
 }
+
+.header-box {
+    background-color: var(--main-header-color);
+    display: flex;
+}
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.4rem;
+    width: 38%;
+}
+
+.title-box__title {
+    padding: 5px;
+}
+
+.links-box {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links-box__link {
+    padding: 3px;
+}
