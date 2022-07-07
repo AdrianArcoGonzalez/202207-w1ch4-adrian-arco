@@ -27,8 +27,7 @@ body {
 .title-box__title {
     padding: 5px;
 }
-.navigation-box {
-}
+
 .links-box {
     list-style-type: none;
     display: flex;
@@ -62,6 +61,16 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .products-list__product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-name {
+    padding: 10px;
+}
+.product-price {
+    padding: 10px;
 }
